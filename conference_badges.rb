@@ -16,6 +16,6 @@ def assign_rooms(attendees)
   attendees.each_with_index {|name, index| 
   attendees[name] = index })
   attendees.wach do |name| 
-    assigned.push( )
+    assigned.push(badge_maker(name) + "You'll be assigned room #{index}" )
 end
   
