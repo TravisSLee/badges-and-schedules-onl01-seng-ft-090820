@@ -13,6 +13,9 @@ end
 
 def assign_rooms(attendees)
   assigned = []
-  attendees.each_with_index {|name, index| attendees[name] = index })
+  attendees.each_with_index {|name, index| 
+  attendees[name] = index })
+  attendees.wach do |name| 
+    assigned.push( )
 end
   
