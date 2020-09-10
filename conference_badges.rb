@@ -18,5 +18,6 @@ def assign_rooms(attendees)
   attendees.wach do |name| 
     assigned.push(badge_maker(name) + "You'll be assigned room #{index}" )
   end 
+  assigned
 end
   
