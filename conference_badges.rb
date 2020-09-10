@@ -13,10 +13,9 @@ end
 
 def assign_rooms(attendees)
   assigned = []
-  attendees.each_with_index {|name, index| attendees[name] = index }
-  attendees.wach do |name| 
-    assigned.push(badge_maker(name) + "You'll be assigned room #{index}" )
-  end 
+  counter = 1 
+  attendees.each do |name|
+    assigned.push(badge_maker(name))
   assigned
 end
   
